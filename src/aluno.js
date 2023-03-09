@@ -18,18 +18,22 @@ const Aluno = sequelize.define('Aluno', {
     allowNull: false,
 
   },
-  idade: {
-    type: DataTypes.INTEGER,
+  email: {
+    type: DataTypes.STRING,
     allowNull: false,
   },
-  matricula: {
-    type: DataTypes.STRING,
+  senha: {
+    type: DataTypes.INTEGER,
     allowNull: false,
     unique: true
   },
+  idade:{
+      type: DataTypes.INTEGER,
+      allowNull:false
+  },
 }, {
   sequelize,
-  tableName: 'aluno',
+  tableName: 'usuario',
   timestamps: false,
 });
 

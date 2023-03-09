@@ -1,4 +1,4 @@
-# Projeto de API - Gutemberg
+# Projeto de API - Guttemberg
 
 ## Proposta
 
