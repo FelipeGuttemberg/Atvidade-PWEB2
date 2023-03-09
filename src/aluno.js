@@ -23,7 +23,7 @@ const Aluno = sequelize.define('Aluno', {
     allowNull: false,
   },
   senha: {
-    type: DataTypes.INTEGER,
+    type: DataTypes.STRING,
     allowNull: false,
     unique: true
   },
